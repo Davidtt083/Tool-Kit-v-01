@@ -15,30 +15,44 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">  
-        <link rel="stylesheet" href="css/style.css">
     </head>
     <body id="page-top">
-      
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Tool Kit</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Herramientas</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </nav>
         
-        <br><br>
-    <div class="container">
-      <div class="card-column column-0">
-        <div class="card card-color-0">
-          <div class="border"></div>
-          <img src="assets\img\avataaars.svg" />
-          <h1>Da clic en la caja</h1>
-        </div>     
-    </div>
-    
-    <div id="cover" class="cover"></div>
-    
-    <div id="open-content" class="open-content">
-      <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
-      <img id="open-content-image" src="" />
- 
-<!-- iconos-->
-
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio"><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." /></a>
+                
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Tool Kit</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Da clic en la caja pra conocer las herramientas</p>
+            </div>
+        </header>
+        
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -105,17 +119,8 @@
                 </div>
             </div>
         </section>
- <!-- iconos-->
-      <div class="text" id="open-content-text">
         
-      </div>
-      
-    </div>
-
-        <!-- good page-->
-
-
- <!-- Portfolio Modals-->
+        <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -362,11 +367,6 @@
                 </div>
             </div>
         </div>
- <!--
-  Please note: this code is in no way ready to be used as is in production on your website. It will need to be adapted to be cross browser compliant & accessible. I just wanted to share how one might go about this effect with CSS & JS and no other dependencies
--->
-
-        <!-- good page-->
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -375,8 +375,6 @@
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="js/index.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        
     </body>
 </html>
