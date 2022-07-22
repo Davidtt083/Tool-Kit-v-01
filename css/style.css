@@ -2,9 +2,10 @@
 ** Layout, Text & Colors 
 */
 
-body {
+html,body {
   background: #ffff;
   font-size: 18px;
+  min-height: 50%;
 }
 
 p {
@@ -13,15 +14,18 @@ p {
 
 .container {
   max-width: 800px;
+  max-height: 100vh;
   margin: 0 auto;
+  margin-top: -50px;
 }
 
 /* Cards */
 .card-column {
-  width: 50%;
+  width: 100%;
   float: left;
   padding: 4%;
   box-sizing: border-box;
+  margin-top: 10px;
 }
 
 .column-1 {
@@ -92,11 +96,14 @@ p {
 
 /* The open page content */
 .open-content {
-  width: 70%;
+  width: 80%;
+  height: 100px;
   z-index: 110;
   position: absolute;
   opacity: 0;
   pointer-events: none;
+  margin-left: 1%;
+  margin-top: -100px;
 }
 
 .open-content img {
@@ -126,7 +133,7 @@ p {
   display: block;
   position: absolute;
   right: 12px;
-  top: 12px;
+  top: 20px;
   width: 30px;
   height: 30px;
 }
@@ -226,6 +233,22 @@ p {
   pointer-events: all;
   -webkit-transition-delay: 1000ms;
           transition-delay: 1000ms;
+}
+
+.titu-tool{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.titu-herra{
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 15%;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 /* 
